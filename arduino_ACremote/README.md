@@ -1,0 +1,1 @@
+AC remote using an arduino with an infre-red LED. arudio is interfaced in python with python's serial package, through a small tkinter gui.

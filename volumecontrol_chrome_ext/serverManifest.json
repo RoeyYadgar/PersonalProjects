@@ -1,0 +1,7 @@
+{
+    "name" : "pyserver",
+    "description" : "Communicate with chrome extension to send commands",
+    "path" : "startserver.bat",
+    "type" :"stdio",
+    "allowed_origins" : ["chrome-extension://jcgnehpcjnpacgoealkgmjdaijjmoafi/"]
+}

@@ -1,0 +1,1 @@
+Heardle game (https://heardlewordle.io/) using any playlist from spotify by providing the spotify playlist's link.

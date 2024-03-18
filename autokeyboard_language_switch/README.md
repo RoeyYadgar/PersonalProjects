@@ -1,0 +1,1 @@
+Automaticly switches language (alt+shift) between hebrew and english while typing based on the text that is being typed.

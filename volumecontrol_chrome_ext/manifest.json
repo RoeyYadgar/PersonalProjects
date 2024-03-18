@@ -1,0 +1,30 @@
+{
+    "manifest_version" : 3,
+    "name" : "Media Site Controls",
+    "version": "1.0",
+    "content_scripts" : [
+        {
+            "matches": [
+                "https://www.youtube.com/*","https://www.twitch.tv/*","https://www.mako.co.il/*","https://www.netflix.com/*","https://www.kan.org.il/*"
+                
+            ],
+            "js" : ["content.js"]
+        }
+    ],
+
+    "background" : {
+        "service_worker": "background.js"
+    },
+
+    "action": {},
+    
+    "web_accessible_resources" : [{
+        "resources" : ["conf.json","injected.js"],
+        "matches" : ["https://www.youtube.com/*","https://www.twitch.tv/*","https://www.mako.co.il/*","https://www.kan.org.il/*"]
+    }],
+
+    "permissions": ["tabs","nativeMessaging"],
+    "host_permissions" : ["https://www.youtube.com/*","https://www.twitch.tv/*","https://www.mako.co.il/*","https://www.kan.org.il/*"]
+    
+
+}
